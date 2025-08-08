@@ -5,3 +5,14 @@ numpy
 scikit-learn
 scipy
 matplotlib
+streamlit
+numpy
+pandas
+matplotlib
+
+# Geo stack (versions compatibles)
+geopandas==0.14.4
+shapely==2.0.4
+pyproj==3.6.1
+pyogrio==0.7.2     # I/O rapide pour shapefiles/GeoPackage (évite fiona)
+rasterio==1.3.9    # si tu lis des .tif (ton app le fait)
