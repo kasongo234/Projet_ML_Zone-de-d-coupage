@@ -1,0 +1,23 @@
+# données et sorties lourdes
+data/
+outputs/
+models/
+*.tif
+*.tiff
+*.pth
+*.pt
+*.h5
+*.npz
+
+# shapefiles (souvent volumineux)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# notebooks et caches
+notebooks/
+__pycache__/
+*.pyc
+.DS_Store
